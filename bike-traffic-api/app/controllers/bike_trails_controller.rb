@@ -1,2 +1,3 @@
 class BikeTrailsController < ApplicationController
+
 end
