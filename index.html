@@ -14,5 +14,38 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5rbnA-OhBCJ1ly3-h3oMjVr6jZLHXAIg&callback=initMap">
     </script>
     </div>
+
+    <!-- ANDY: adds comment section-->
+    <div class="message-container">
+        <div class="messages-tabs">
+            <ul>
+                <li id="1">Trail 1</li>
+                <li id="2">Trail 2</li>
+                <li id="3">Trail 3</li>
+            </ul>
+        </div>
+        <div class="messages-section">
+            <ul class="messages"></ul>
+            <form class="message-form">
+                <input
+                id = "0" 
+                type="hidden"
+                />
+                <input 
+                    class = "user_name-input"
+                    type="text"
+                    name="user_name"
+                    placeholder="Enter your name"
+                    />
+                <input 
+                    class="message-input"
+                    type="text"
+                    name="content"
+                    placeholder="Add a message..."
+                    />
+                <button class="message-button" type="submit">Post</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html> 
